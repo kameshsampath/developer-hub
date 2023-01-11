@@ -173,6 +173,22 @@ const CIList: CardItem[] = [
     time: '15 min',
     link: '/tutorials/build-code/ci-tutorial-container-signing',
   },
+  {
+    title: 'Push application containers to Google Artifact Registry',
+
+    module: 'ci',
+    icon: "img/icon_ci.svg",
+    description: (
+      <>
+        This build automation guide describes how to build and push an application container image to Google Artifact Registry using a CI pipeline.
+
+      </>
+    ),
+    newDoc: true,
+    type: [docType.Documentation],
+    time: '15 min',
+    link: '/tutorials/build-code/ci-tutorial-push-to-gar',
+  },
 ];
 
 const CDList: CardItem[] = [
